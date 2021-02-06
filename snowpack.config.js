@@ -16,7 +16,8 @@ module.exports = {
   },
   packageOptions: {
     /* ... */
-    knownEntrypoints: ['react/jsx-runtime']
+    knownEntrypoints: ['react/jsx-runtime'],
+    polyfillNode: true
   },
   devOptions: {
     /* ... */
